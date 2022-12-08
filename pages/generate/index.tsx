@@ -55,7 +55,7 @@ const Generate = (props: Props) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <VStack gap={6} px={8}>
+      <VStack gap={6}>
         <Heading textAlign={"center"} size={"2xl"}>
           Whats on your{" "}
           <Text

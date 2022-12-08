@@ -8,7 +8,7 @@ const Hero = () => {
       <Heading
         letterSpacing={-2}
         textAlign={"center"}
-        size={{ base: "2xl", md: "3xl", lg: "4xl" }}
+        size={{ base: "2xl", md: "3xl", lg: "3xl" }}
       >
         Create images from text using
         <Text
@@ -25,7 +25,7 @@ const Hero = () => {
         textAlign={"center"}
         w={{ base: "300px", md: "3xl", lg: "4xl" }}
       >
-        Powered by OpenAI, this tool allows you to generate images using the keywords you type.
+        Powered by OpenAI, this tool allows you to generate images using the DALL·E models
       </Text>
       <HStack gap={2}>
         <Link href={"/generate"}>
