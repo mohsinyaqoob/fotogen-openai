@@ -118,6 +118,7 @@ const Generate = (props: Props) => {
         {image && (
           <Button
             bg={"primary"}
+            color={"#fff"}
             leftIcon={<DownloadIcon />}
             onClick={() => saveAs(image, keywords.replace(" ", "-") + ".png")}
           >
