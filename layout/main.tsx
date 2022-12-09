@@ -11,7 +11,7 @@ const MainLayout = (props: Props) => {
   return (
     <Box
       w={"full"}
-      h={"100vh"}
+      // h={"100vh"}
       bg={useColorModeValue("white", "#171717")}
       pb={8}
       px={4}
