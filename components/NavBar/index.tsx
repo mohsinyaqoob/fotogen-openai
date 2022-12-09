@@ -279,6 +279,6 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Contribute",
-    href: "http:///github.com/fotogen-openai",
+    href: "https://github.com/mohsinyaqoob/fotogen-openai",
   },
 ];
