@@ -37,9 +37,9 @@ export const sponsorList = [
     href: "http://redstaglabs.com",
   },
   {
-    id: 5,
+    id: 6,
     title: "Kashmir Origin",
-    src: RedStag,
+    src: KashmirOrigin,
     href: "http://kashmirorigin.com",
   },
 ];
