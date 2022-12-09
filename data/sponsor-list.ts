@@ -3,6 +3,7 @@ import Codeoverflow from "../assets/images/codeoverflow.png";
 import ILS from "../assets/images/ils.png";
 import Marvel from "../assets/images/marvel.png";
 import RedStag from "../assets/images/red-stag.png";
+import KashmirOrigin from "../assets/images/kashmir-origin.png";
 
 export const sponsorList = [
   {
@@ -34,5 +35,11 @@ export const sponsorList = [
     title: "Red Stag Labs",
     src: RedStag,
     href: "http://redstaglabs.com",
+  },
+  {
+    id: 5,
+    title: "Kashmir Origin",
+    src: RedStag,
+    href: "http://kashmirorigin.com",
   },
 ];
