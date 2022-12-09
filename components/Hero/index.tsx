@@ -9,15 +9,16 @@ const Hero = () => {
         letterSpacing={-2}
         textAlign={"center"}
         size={{ base: "2xl", md: "3xl", lg: "3xl" }}
+        w={{ base: "320px", md: "820px", lg: "820px" }}
       >
-        Create images from text using
+        Realistic images and art created from a description in
         <Text
           bgGradient="linear(to-r, secondary, primary)"
           bgClip="text"
           fontWeight="extrabold"
           py={1.5}
         >
-          Artificial Intelligence
+          Natural Language.
         </Text>
       </Heading>
       <Text
@@ -25,7 +26,8 @@ const Hero = () => {
         textAlign={"center"}
         w={{ base: "300px", md: "3xl", lg: "4xl" }}
       >
-        Powered by OpenAI, this tool allows you to generate images using the DALL·E models
+        Powered by OpenAI, this tool allows you to  create original, realistic images and art from a
+text description. <br/> It can combine concepts, attributes, and styles.
       </Text>
       <HStack gap={2}>
         <Link href={"/generate"}>
